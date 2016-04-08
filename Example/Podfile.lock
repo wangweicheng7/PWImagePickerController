@@ -1,0 +1,14 @@
+PODS:
+  - PWImagePickerController (0.1.0)
+
+DEPENDENCIES:
+  - PWImagePickerController (from `../`)
+
+EXTERNAL SOURCES:
+  PWImagePickerController:
+    :path: ../
+
+SPEC CHECKSUMS:
+  PWImagePickerController: 263133d7aa3cbae8474e1b45061eb7becb1a3d4f
+
+COCOAPODS: 0.39.0

@@ -1,0 +1,6 @@
+framework module PWImagePickerController {
+  umbrella header "PWImagePickerController-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "PWImagePickerController",
+  "version": "0.1.0",
+  "summary": "A short description of PWImagePickerController.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/PWImagePickerController",
+  "license": "MIT",
+  "authors": {
+    "陌上一梦觅琴音": "wangwc@putao.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/PWImagePickerController.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "PWImagePickerController": [
+      "Pod/Assets/*.png"
+    ]
+  },
+  "resources": "Pod/Assets/*.png",
+  "frameworks": [
+    "UIKit",
+    "Photos"
+  ]
+}
