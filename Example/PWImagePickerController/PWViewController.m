@@ -22,6 +22,7 @@
     UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
     btn.frame = CGRectMake(100, 100, 100, 40);
     [btn setTitle:@"选择照片" forState:UIControlStateNormal];
+    [btn setImage:[UIImage imageNamed:@"resource.bundle/icon_1"] forState:UIControlStateNormal];
     [btn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
     [btn addTarget:self action:@selector(choseImage:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:btn];

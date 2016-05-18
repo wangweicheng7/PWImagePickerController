@@ -90,4 +90,8 @@
     
 }
 
++ (UIImage *)imageNamedInBundle:(NSString *)name {
+    return [UIImage imageNamed:[@"resource.bundle/" stringByAppendingString:name]];
+}
+
 @end

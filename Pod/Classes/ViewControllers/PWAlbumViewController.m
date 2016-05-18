@@ -10,7 +10,6 @@
 #import "PWAlbumTableViewCell.h"
 #import "PWPhotoPickerController.h"
 #import "PWImageManager.h"
-#import "GlobalConfigs.h"
 #import "Utils.h"
 
 @interface PWAlbumViewController () <UITableViewDelegate,UITableViewDataSource> {
@@ -41,7 +40,7 @@
     [self.view addSubview:self.tableView];
     self.title = @"相册";
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"取消" style:UIBarButtonItemStyleDone target:self action:@selector(cancel:)];
-    self.navigationItem.rightBarButtonItem.tintColor = UIColorFromRGB(PWPrimaryColor);
+//    self.navigationItem.rightBarButtonItem.tintColor = UIColorFromRGB(PWPrimaryColor);
 }
 
 - (void)cancel:(id)sender {

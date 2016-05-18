@@ -24,6 +24,7 @@
 		8464E730C19C8DDD834C2732 /* Pods_PWImagePickerController_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C55D8BF987612ED98AD83891 /* Pods_PWImagePickerController_Tests.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		DA09A3D01CB669E600CC963B /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA09A3CF1CB669E600CC963B /* Launch Screen.storyboard */; };
+		DA97A2041CEC7AE800406398 /* resource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DA97A2031CEC7AE800406398 /* resource.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		919757076292C9C6C6246FBB /* Pods-PWImagePickerController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PWImagePickerController_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-PWImagePickerController_Example/Pods-PWImagePickerController_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C55D8BF987612ED98AD83891 /* Pods_PWImagePickerController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PWImagePickerController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA09A3CF1CB669E600CC963B /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		DA97A2031CEC7AE800406398 /* resource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = resource.bundle; sourceTree = "<group>"; };
 		E21063043732BE311A647593 /* Pods_PWImagePickerController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PWImagePickerController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB0228346A255AC6DC3F0237 /* Pods-PWImagePickerController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PWImagePickerController_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PWImagePickerController_Tests/Pods-PWImagePickerController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F225CEDD434EE6FA9A2E5FA1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -137,6 +139,7 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* PWViewController.h */,
 				6003F5A6195388D20070C39A /* PWViewController.m */,
+				DA97A2031CEC7AE800406398 /* resource.bundle */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 				DA09A3CF1CB669E600CC963B /* Launch Screen.storyboard */,
@@ -284,6 +287,7 @@
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				DA97A2041CEC7AE800406398 /* resource.bundle in Resources */,
 				DA09A3D01CB669E600CC963B /* Launch Screen.storyboard in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
@@ -523,7 +527,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PWImagePickerController/PWImagePickerController-Prefix.pch";
 				INFOPLIST_FILE = "PWImagePickerController/PWImagePickerController-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = com.imagepicker.paul;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -541,7 +545,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PWImagePickerController/PWImagePickerController-Prefix.pch";
 				INFOPLIST_FILE = "PWImagePickerController/PWImagePickerController-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = com.imagepicker.paul;
 				PRODUCT_NAME = "$(TARGET_NAME)";

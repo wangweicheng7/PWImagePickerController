@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "95A6DAA4994F0FB24203A92D953C11E268111370",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "95A6DAA4994F0FB24203A92D953C11E268111370" : 0,
+    "A0D499BEC3324376F92EDB4E96DBBD4A0AC28AFA" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "7C3D5521-7772-4092-B52B-888D4062693A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "95A6DAA4994F0FB24203A92D953C11E268111370" : "PWImagePickerController\/",
+    "A0D499BEC3324376F92EDB4E96DBBD4A0AC28AFA" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "PWImagePickerController",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Example\/PWImagePickerController.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:wangweicheng7\/PWImagePickerController.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "95A6DAA4994F0FB24203A92D953C11E268111370"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:wangweicheng7\/wangweicheng7.github.io.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A0D499BEC3324376F92EDB4E96DBBD4A0AC28AFA"
+    }
+  ]
+}

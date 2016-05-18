@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00FD0E6EF12139F77D61569C34BD846D /* UICollectionView+Convenience.m in Sources */ = {isa = PBXBuildFile; fileRef = B408B26424116F1C934BDAA7C31DA148 /* UICollectionView+Convenience.m */; };
-		0231527FC309684A11176E73562610FC /* PWAssetGridViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AADDD2A40C07C5557BEF3EACBF2AD8F /* PWAssetGridViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		02857201A679696270D2CAC2D87FD4D7 /* PWAssetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D94C26CD485C331B696AD698A3AC2653 /* PWAssetModel.m */; };
 		08DDDB2BF4E2B88F556737FEA5B8D2E6 /* PWImageUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 86365845A163E03A6FF6CF56943A68FD /* PWImageUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0D4244F7EF4FE8478F144EA5E2C95950 /* PWAlbumTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 5584BE86901CC6109618B2341604E79D /* PWAlbumTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -33,30 +31,23 @@
 		911B50F9E012A42CA1076F1EBF580AC6 /* Pods-PWImagePickerController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C42516CD06B32122BC4CBC7EE859D075 /* Pods-PWImagePickerController_Tests-dummy.m */; };
 		91370A87A80416C1AF0CB60D449E9E87 /* PWPhotoPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = B17F6935000FDDF631E34FEA773C73AF /* PWPhotoPickerController.m */; };
 		91558E8675D5BE10F88394531AEE30D8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3834CBBE63383AA669517889225C402D /* UIKit.framework */; };
-		9D6C425FB66B5F2F27E8973FF649FBBC /* CIImage+Convenience.h in Headers */ = {isa = PBXBuildFile; fileRef = 20364A54B61CF56ADA2444B26352F507 /* CIImage+Convenience.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A74D2A669C6E09D1EA617A2B28DA52F9 /* UIImage+format.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CF1292DED9AEF1AB83E0C94BF1E3CC2 /* UIImage+format.m */; };
 		A81834DD69CD2D8D17696962DD78B4ED /* PWAlbumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11E2D0F543C720CD43FA156E819AB851 /* PWAlbumViewController.m */; };
-		AA9E415A8E58490F91EBB9AB6FE1EF36 /* NSIndexSet+Convenience.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DCD1776388F344F6047937A9F49B5FE /* NSIndexSet+Convenience.m */; };
 		B871C8913DDC50C1D83576C4222499D5 /* PWImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62DE1EB89989E0F2D9B1B0F852B851C2 /* PWImagePickerController.m */; };
 		B89552E0DE06499EE46EB4CA2B3E9964 /* Pods-PWImagePickerController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D98F7B72BC5BE2CFCC15C4969A313324 /* Pods-PWImagePickerController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B92A6956BC8EF87E69FAB903B4D30163 /* GlobalConfigs.h in Headers */ = {isa = PBXBuildFile; fileRef = B4682112AF92185C448B3823C40AFF16 /* GlobalConfigs.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B9FB6396E4D0F4608C70CEA0B25F1EF8 /* PWImageModel.h in Headers */ = {isa = PBXBuildFile; fileRef = A8AA005CBFA693D634975860989C0730 /* PWImageModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BC5E0EFF60B5C24CC241EE3FE87A0E08 /* UIImage+format.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B15B3539EAE380D86684806D6E936FF /* UIImage+format.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BCCC8257485F1AC49D8A25EC72201644 /* PWAlbumViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 89B1101F8C190E92F01134CB36FB4FD5 /* PWAlbumViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C9B2356A3EE2E22646CD17A7E6919517 /* PWImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B1285766CA2B3D71628CE30BC17E58B /* PWImageModel.m */; };
-		CAF1A60F0F47C56BA97599F1374F7029 /* CIImage+Convenience.m in Sources */ = {isa = PBXBuildFile; fileRef = E0C31397117AE9EF259E92E937080204 /* CIImage+Convenience.m */; };
 		CDD38E063F438A0BAC67017F03818068 /* PWImagePickerController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EEF422EECA5EC749217210CB808A6B3 /* PWImagePickerController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D5AD3515C653CF0AC6F82ADF1DCC085F /* PWImagePickerController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 954AF9D8F85C183A7024CBF55873BA07 /* PWImagePickerController-dummy.m */; };
 		DADA354A1CB7E74E00C25C43 /* resource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DADA35491CB7E6FF00C25C43 /* resource.bundle */; };
 		DADA354B1CB7EC3D00C25C43 /* resource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DADA35491CB7E6FF00C25C43 /* resource.bundle */; };
 		DADA354C1CB7EC4700C25C43 /* resource.bundle in Frameworks */ = {isa = PBXBuildFile; fileRef = DADA35491CB7E6FF00C25C43 /* resource.bundle */; };
 		DC40574F827A99C48D8D2960CDA3B0AB /* Pods-PWImagePickerController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 742AB15BAC21C5F56F3E5CD750B0F37F /* Pods-PWImagePickerController_Example-dummy.m */; };
-		DDDC505CDF2934C60153878D566F266E /* UICollectionView+Convenience.h in Headers */ = {isa = PBXBuildFile; fileRef = 715D04A4FB3C564007871232B0B3AC84 /* UICollectionView+Convenience.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DDF734D6E85A45378CDFD9EF138F32DB /* PWImagePreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EB865A7BD8B078DBD9EAD6E3CAA8330 /* PWImagePreviewViewController.m */; };
-		E924965609530A9256E92B14ED5748E7 /* NSIndexSet+Convenience.h in Headers */ = {isa = PBXBuildFile; fileRef = C424F86FD7F61A9DB7B05C89C58A367F /* NSIndexSet+Convenience.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EB605B6CAA94E29A2F1905D56068AC87 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4F2F653DC5F8F35EDB01E728F2236A3 /* Photos.framework */; };
 		F2BD07A831177607F21A8EE307FA5CA4 /* PWAlbumTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B22E23139B4ED9F59C5A5D3E5DD538 /* PWAlbumTableViewCell.m */; };
-		F71B06B18F32827EFFEEC289B58BD522 /* GlobalConfigs.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E0C6B7AA83BA4E3F24B827AEFEB2104 /* GlobalConfigs.m */; };
 		F84EF2E960A0F6918514F743D597C0D1 /* PWAssetModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 32B52EEBF18C983E7AF736E8EF2DAD29 /* PWAssetModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -94,9 +85,7 @@
 		11E2D0F543C720CD43FA156E819AB851 /* PWAlbumViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PWAlbumViewController.m; sourceTree = "<group>"; };
 		198BA1EDC2998B044DB8B428B9928453 /* PWImagePickerController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PWImagePickerController-umbrella.h"; sourceTree = "<group>"; };
 		1999AB50D99A2CBFE6B356C9A25DFD74 /* icon_4@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "icon_4@2x.png"; sourceTree = "<group>"; };
-		20364A54B61CF56ADA2444B26352F507 /* CIImage+Convenience.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CIImage+Convenience.h"; sourceTree = "<group>"; };
 		237EE5DB0260CA3BAA8C5F0E2DAA6389 /* PWImagePreviewViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PWImagePreviewViewController.h; sourceTree = "<group>"; };
-		2E0C6B7AA83BA4E3F24B827AEFEB2104 /* GlobalConfigs.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GlobalConfigs.m; sourceTree = "<group>"; };
 		308994BB8FDBC7A8F115E17427F34CD2 /* Pods-PWImagePickerController_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PWImagePickerController_Example-resources.sh"; sourceTree = "<group>"; };
 		32B52EEBF18C983E7AF736E8EF2DAD29 /* PWAssetModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PWAssetModel.h; sourceTree = "<group>"; };
 		35E14534124EDCFF3D1030EA42E7E782 /* Pods_PWImagePickerController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PWImagePickerController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -110,9 +99,7 @@
 		4C1FFFF476B222366A94367D1C5C35C6 /* PWImageManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PWImageManager.m; sourceTree = "<group>"; };
 		4D8614A7B5BBBB248711D0EEF83961FD /* icon_3@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "icon_3@2x.png"; sourceTree = "<group>"; };
 		5584BE86901CC6109618B2341604E79D /* PWAlbumTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PWAlbumTableViewCell.h; sourceTree = "<group>"; };
-		5AADDD2A40C07C5557BEF3EACBF2AD8F /* PWAssetGridViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PWAssetGridViewController.h; sourceTree = "<group>"; };
 		5B15B3539EAE380D86684806D6E936FF /* UIImage+format.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+format.h"; sourceTree = "<group>"; };
-		5DCD1776388F344F6047937A9F49B5FE /* NSIndexSet+Convenience.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSIndexSet+Convenience.m"; sourceTree = "<group>"; };
 		5EF8D2AB16B0AE51FB66021E8476022F /* Pods-PWImagePickerController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PWImagePickerController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		60E6CC2ECBA135C27E249D4F8A5B5613 /* Pods-PWImagePickerController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PWImagePickerController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		61B7DC2792C074E25DC2803AF64D30A1 /* icon_5@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "icon_5@2x.png"; sourceTree = "<group>"; };
@@ -122,7 +109,6 @@
 		6594E39B5DE83BE500615D67486D8D7A /* Pods-PWImagePickerController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PWImagePickerController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		6CF1292DED9AEF1AB83E0C94BF1E3CC2 /* UIImage+format.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+format.m"; sourceTree = "<group>"; };
 		6DC3785674C8A6017150CAFAB8D64550 /* PWImagePickerController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PWImagePickerController-prefix.pch"; sourceTree = "<group>"; };
-		715D04A4FB3C564007871232B0B3AC84 /* UICollectionView+Convenience.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+Convenience.h"; sourceTree = "<group>"; };
 		724000ADC7763E73BC4EAE2FF3870C89 /* icon_1@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "icon_1@2x.png"; sourceTree = "<group>"; };
 		742AB15BAC21C5F56F3E5CD750B0F37F /* Pods-PWImagePickerController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PWImagePickerController_Example-dummy.m"; sourceTree = "<group>"; };
 		821916AB61C21AB29A66905A25A06ABC /* Pods-PWImagePickerController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PWImagePickerController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -138,17 +124,13 @@
 		A8AA005CBFA693D634975860989C0730 /* PWImageModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PWImageModel.h; sourceTree = "<group>"; };
 		B17F6935000FDDF631E34FEA773C73AF /* PWPhotoPickerController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PWPhotoPickerController.m; sourceTree = "<group>"; };
 		B331D24C6957BDD4A76BC24AD5F8C59D /* PWImagePickerController.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PWImagePickerController.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		B408B26424116F1C934BDAA7C31DA148 /* UICollectionView+Convenience.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+Convenience.m"; sourceTree = "<group>"; };
-		B4682112AF92185C448B3823C40AFF16 /* GlobalConfigs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GlobalConfigs.h; sourceTree = "<group>"; };
 		B5213F34F0D69E3CD83A2C85EA388DB3 /* PWAlbumModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PWAlbumModel.h; sourceTree = "<group>"; };
 		B5A77216E5E5480789E280E08CCBAB47 /* icon_6@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "icon_6@2x.png"; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BFB17933ABADCBDEAFE4552B5A1F30C7 /* icon_11@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "icon_11@2x.png"; sourceTree = "<group>"; };
 		C07E2B86883C851CC5FDAF1F86567452 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C182F22DD810A64E0602B69776855050 /* PWAssetGridViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PWAssetGridViewController.m; sourceTree = "<group>"; };
 		C35048F649DEE84BBA9ECBC8A7BF982B /* PWPhotoCollectionViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PWPhotoCollectionViewCell.h; sourceTree = "<group>"; };
 		C3C7D05D7D20E976BDD8D4EE83A2336D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		C424F86FD7F61A9DB7B05C89C58A367F /* NSIndexSet+Convenience.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSIndexSet+Convenience.h"; sourceTree = "<group>"; };
 		C42516CD06B32122BC4CBC7EE859D075 /* Pods-PWImagePickerController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PWImagePickerController_Tests-dummy.m"; sourceTree = "<group>"; };
 		C718CD8F129D06070FE09DEA55C4AA49 /* icon_2@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "icon_2@2x.png"; sourceTree = "<group>"; };
 		C99BDF23B2AE8D95BD9F4EC5F07BEDF9 /* Pods-PWImagePickerController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PWImagePickerController_Tests.modulemap"; sourceTree = "<group>"; };
@@ -159,9 +141,8 @@
 		D7B22E23139B4ED9F59C5A5D3E5DD538 /* PWAlbumTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PWAlbumTableViewCell.m; sourceTree = "<group>"; };
 		D94C26CD485C331B696AD698A3AC2653 /* PWAssetModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = PWAssetModel.m; sourceTree = "<group>"; };
 		D98F7B72BC5BE2CFCC15C4969A313324 /* Pods-PWImagePickerController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PWImagePickerController_Example-umbrella.h"; sourceTree = "<group>"; };
-		DADA35491CB7E6FF00C25C43 /* resource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = resource.bundle; sourceTree = "<group>"; };
+		DADA35491CB7E6FF00C25C43 /* resource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = resource.bundle; path = ../resource.bundle; sourceTree = "<group>"; };
 		DBBE47EFF69E1E56E7608AD5B59D9B26 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E0C31397117AE9EF259E92E937080204 /* CIImage+Convenience.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CIImage+Convenience.m"; sourceTree = "<group>"; };
 		E43CC9FE6686CA86F33646BC01DD79D5 /* PWImagePickerController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = PWImagePickerController.modulemap; sourceTree = "<group>"; };
 		E448C6BAB968409C689637981DB28BAE /* icon_14@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "icon_14@2x.png"; sourceTree = "<group>"; };
 		E5AC4B3CE3F68702524EFF412936098C /* PWPhotoBottomView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = PWPhotoBottomView.h; sourceTree = "<group>"; };
@@ -320,8 +301,6 @@
 			children = (
 				89B1101F8C190E92F01134CB36FB4FD5 /* PWAlbumViewController.h */,
 				11E2D0F543C720CD43FA156E819AB851 /* PWAlbumViewController.m */,
-				5AADDD2A40C07C5557BEF3EACBF2AD8F /* PWAssetGridViewController.h */,
-				C182F22DD810A64E0602B69776855050 /* PWAssetGridViewController.m */,
 				8EEF422EECA5EC749217210CB808A6B3 /* PWImagePickerController.h */,
 				62DE1EB89989E0F2D9B1B0F852B851C2 /* PWImagePickerController.m */,
 				237EE5DB0260CA3BAA8C5F0E2DAA6389 /* PWImagePreviewViewController.h */,
@@ -354,14 +333,7 @@
 		AC412B681A311678F581CD5767315BEC /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				20364A54B61CF56ADA2444B26352F507 /* CIImage+Convenience.h */,
-				E0C31397117AE9EF259E92E937080204 /* CIImage+Convenience.m */,
-				B4682112AF92185C448B3823C40AFF16 /* GlobalConfigs.h */,
-				2E0C6B7AA83BA4E3F24B827AEFEB2104 /* GlobalConfigs.m */,
-				C424F86FD7F61A9DB7B05C89C58A367F /* NSIndexSet+Convenience.h */,
-				5DCD1776388F344F6047937A9F49B5FE /* NSIndexSet+Convenience.m */,
-				715D04A4FB3C564007871232B0B3AC84 /* UICollectionView+Convenience.h */,
-				B408B26424116F1C934BDAA7C31DA148 /* UICollectionView+Convenience.m */,
+				DADA35491CB7E6FF00C25C43 /* resource.bundle */,
 				5B15B3539EAE380D86684806D6E936FF /* UIImage+format.h */,
 				6CF1292DED9AEF1AB83E0C94BF1E3CC2 /* UIImage+format.m */,
 				37B1D5EB093A2F55FB8B6D57CB65E330 /* Utils.h */,
@@ -385,7 +357,6 @@
 		C1B192CECEAB7C6FA5C98827E0A8FDDE /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				DADA35491CB7E6FF00C25C43 /* resource.bundle */,
 				AC412B681A311678F581CD5767315BEC /* Classes */,
 			);
 			path = Pod;
@@ -450,13 +421,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D6C425FB66B5F2F27E8973FF649FBBC /* CIImage+Convenience.h in Headers */,
-				B92A6956BC8EF87E69FAB903B4D30163 /* GlobalConfigs.h in Headers */,
-				E924965609530A9256E92B14ED5748E7 /* NSIndexSet+Convenience.h in Headers */,
 				17AAC9D454181EC4BDC38593A1352C08 /* PWAlbumModel.h in Headers */,
 				0D4244F7EF4FE8478F144EA5E2C95950 /* PWAlbumTableViewCell.h in Headers */,
 				BCCC8257485F1AC49D8A25EC72201644 /* PWAlbumViewController.h in Headers */,
-				0231527FC309684A11176E73562610FC /* PWAssetGridViewController.h in Headers */,
 				F84EF2E960A0F6918514F743D597C0D1 /* PWAssetModel.h in Headers */,
 				45F9A6F023F55DF2D4876B5FAE3D292A /* PWImageManager.h in Headers */,
 				B9FB6396E4D0F4608C70CEA0B25F1EF8 /* PWImageModel.h in Headers */,
@@ -467,7 +434,6 @@
 				1DE5CB202AD1532E6E75465FB48B496A /* PWPhotoBottomView.h in Headers */,
 				78E291C6308A34B838308114602CB010 /* PWPhotoCollectionViewCell.h in Headers */,
 				771BC2A91CBF9D4403B7AB31B0C1E4F6 /* PWPhotoPickerController.h in Headers */,
-				DDDC505CDF2934C60153878D566F266E /* UICollectionView+Convenience.h in Headers */,
 				BC5E0EFF60B5C24CC241EE3FE87A0E08 /* UIImage+format.h in Headers */,
 				2540C82F7D300CE19F705845BB66E913 /* Utils.h in Headers */,
 			);
@@ -618,9 +584,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CAF1A60F0F47C56BA97599F1374F7029 /* CIImage+Convenience.m in Sources */,
-				F71B06B18F32827EFFEEC289B58BD522 /* GlobalConfigs.m in Sources */,
-				AA9E415A8E58490F91EBB9AB6FE1EF36 /* NSIndexSet+Convenience.m in Sources */,
 				6CB70D3464DFCD789FD58E278C16D88E /* PWAlbumModel.m in Sources */,
 				F2BD07A831177607F21A8EE307FA5CA4 /* PWAlbumTableViewCell.m in Sources */,
 				A81834DD69CD2D8D17696962DD78B4ED /* PWAlbumViewController.m in Sources */,
@@ -634,7 +597,6 @@
 				5C15B58CF8BFA58FE9C8C9EA36E6ED64 /* PWPhotoBottomView.m in Sources */,
 				54F3ABFCD3956012EBDB6A5DB174DD4B /* PWPhotoCollectionViewCell.m in Sources */,
 				91370A87A80416C1AF0CB60D449E9E87 /* PWPhotoPickerController.m in Sources */,
-				00FD0E6EF12139F77D61569C34BD846D /* UICollectionView+Convenience.m in Sources */,
 				A74D2A669C6E09D1EA617A2B28DA52F9 /* UIImage+format.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -746,7 +708,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/PWImagePickerController/PWImagePickerController-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/PWImagePickerController/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/PWImagePickerController/PWImagePickerController.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
@@ -832,7 +794,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-PWImagePickerController_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-PWImagePickerController_Example/Pods-PWImagePickerController_Example.modulemap";
@@ -862,7 +824,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-PWImagePickerController_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-PWImagePickerController_Example/Pods-PWImagePickerController_Example.modulemap";
@@ -893,7 +855,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/PWImagePickerController/PWImagePickerController-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/PWImagePickerController/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/PWImagePickerController/PWImagePickerController.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;

@@ -1,12 +1,14 @@
-source 'https://github.com/CocoaPods/Specs.git'
-use_frameworks!
+#source 'https://github.com/CocoaPods/Specs.git'
+#use_frameworks!
+#
+#target 'PWImagePickerController_Example', :exclusive => true do
+#  pod 'PWImagePickerController', :path => '../'
+#end
+#
+#target 'PWImagePickerController_Tests', :exclusive => true do
+#  pod 'PWImagePickerController', :path => '../'
+#
+#  
+#end
 
-target 'PWImagePickerController_Example', :exclusive => true do
-  pod 'PWImagePickerController', :path => '../'
-end
-
-target 'PWImagePickerController_Tests', :exclusive => true do
-  pod 'PWImagePickerController', :path => '../'
-
-  
-end
+pod

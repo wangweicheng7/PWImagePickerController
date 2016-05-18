@@ -21,4 +21,6 @@
  */
 - (UIImage *)imageSmartOrientation;
 
++ (UIImage *)imageNamedInBundle:(NSString *)name;
+
 @end

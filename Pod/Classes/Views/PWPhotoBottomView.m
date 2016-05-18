@@ -7,7 +7,7 @@
 //
 
 #import "PWPhotoBottomView.h"
-#import "GlobalConfigs.h"
+#import "UIImage+format.h"
 #import "Utils.h"
 
 @interface PWPhotoBottomView () {
@@ -46,7 +46,7 @@
     [self addSubview:self.sureButton];
     [self addSubview:self.originalButton];
     _separatorLineLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, ScreenWidth, 0.5f)];
-    _separatorLineLabel.backgroundColor = UIColorFromRGB(PWSeparatorLineColor);
+//    _separatorLineLabel.backgroundColor = UIColorFromRGB(PWSeparatorLineColor);
     [self addSubview:_separatorLineLabel];
     
 }
@@ -60,8 +60,8 @@
         [_sureButton addTarget:self action:@selector(okButtonClick) forControlEvents:UIControlEventTouchUpInside];
         [_sureButton setTitle:@"确定" forState:UIControlStateNormal];
         [_sureButton setTitle:@"确定" forState:UIControlStateDisabled];
-        [_sureButton setTitleColor:UIColorFromRGB(PWPrimaryColor) forState:UIControlStateNormal];
-        [_sureButton setTitleColor:UIColorFromRGB(PWDisableColor) forState:UIControlStateDisabled];
+//        [_sureButton setTitleColor:UIColorFromRGB(PWPrimaryColor) forState:UIControlStateNormal];
+//        [_sureButton setTitleColor:UIColorFromRGB(PWDisableColor) forState:UIControlStateDisabled];
     }
     return _sureButton;
 }
@@ -76,7 +76,7 @@
         [_previewButton setTitle:@"预览" forState:UIControlStateNormal];
         [_previewButton setTitle:@"预览" forState:UIControlStateDisabled];
         [_previewButton setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
-        [_previewButton setTitleColor:UIColorFromRGB(PWDisableColor) forState:UIControlStateDisabled];
+        [_previewButton setImage:[UIImage imageNamed:@"resource.bundle/icon_1"] forState:UIControlStateNormal];
         _previewButton.enabled = NO;
     }
     return _previewButton;
@@ -91,7 +91,7 @@
         _originalButton.titleLabel.font = [UIFont systemFontOfSize:16];
         [_originalButton setTitle:@"原图" forState:UIControlStateNormal];
         [_originalButton setTitle:@"原图" forState:UIControlStateSelected];
-        [_originalButton setTitleColor:UIColorFromRGB(PWDisableColor) forState:UIControlStateNormal];
+//        [_originalButton setTitleColor:UIColorFromRGB(PWDisableColor) forState:UIControlStateNormal];
         [_originalButton setTitleColor:[UIColor blackColor] forState:UIControlStateSelected];
         [_originalButton setImage:[UIImage imageNamed:@"icon_1"] forState:UIControlStateNormal];
         [_originalButton setImage:[UIImage imageNamed:@"icon_2"] forState:UIControlStateSelected];
